@@ -1,3 +1,6 @@
 <h1>My Blog Post</h1>
-<h2><%= @blog_post.title %></h2>
-<%= @blog_post.body %>
+<%= link_to "Edit", edit_blog_post_path(@blog_post), method: :put %>
+<div>
+  <h1><%= @blog_post.title %></h1>
+  <%= @blog_post.body %>
+</div>
