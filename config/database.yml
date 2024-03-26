@@ -79,6 +79,6 @@ test:
 #
 production:
   <<: *default
-  database: blog_production
-  username: blog
+  database: blog_vpnh
+  username: blog_vpnh_user
   password: <%= ENV["BLOG_DATABASE_PASSWORD"] %>
